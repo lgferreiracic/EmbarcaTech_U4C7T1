@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Lucas Gabriel Ferreira",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": -3.25,
+      "left": 3.55,
+      "attrs": { "builder": "pico-sdk" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": 17.2, "left": 144, "attrs": {} }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "servo1:GND", "pico:GND.8", "black", [ "h-19.2", "v-38.4" ] ],
+    [ "servo1:V+", "pico:3V3", "red", [ "h-28.8", "v-28.7" ] ],
+    [ "servo1:PWM", "pico:GP22", "blue", [ "h-28.8", "v29" ] ]
+  ],
+  "dependencies": {}
+}
