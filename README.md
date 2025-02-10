@@ -58,7 +58,7 @@ Testes básicos foram implementados para garantir que cada componente está func
 Clique na imagem abaixo para assistir ao vídeo que demonstra a solução trabalhada e os resultados obtidos nos experimentos:
 
 <p align="center">
-  <a href="https://youtu.be/vAGab-Dv7XY">
+  <a href="https://www.youtube.com/watch?v=3SHGhLCpCWY">
     <img src="Video.jpg" alt="Vídeo demonstrativo" width="900">
   </a>
 </p>
